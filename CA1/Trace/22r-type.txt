@@ -1,0 +1,13 @@
+#my-R:                                             0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    00:        00100093        addi x1 x0 1           1                                                                                              
+    04:        00800113        addi x2 x0 8              8                                                                                           
+    08:        401101b3        sub x3 x2 x1                 7                                                                                        
+    0c:        00114233        xor x4 x2 x1                    9                                                                                     
+    10:        401152b3        sra x5 x2 x1                       16                                                                                  
+    14:        00320333        add x6 x4 x3                          16                                                                               
+    18:        00327393        andi x7 x4 3                             1                                                                            
+    1c:        40438533        sub x10 x7 x4                                     -8                                                                    
+    20:        003305b3        add x11 x6 x3                                        23                                                                 
+#end
+
+# at the end, here should be the result for a0 and a1: (-8,23)
